@@ -200,6 +200,16 @@ In python we have the following additional operations:
 **Modulo (%) => finding the remainder:**
 - `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
 
+
+**Floor Division (//) => removing the decimal:**
+`17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
++ 17 (input) // 5 (divisor) = 3 (result)
+
+**Modulo (%) => finding the remainder:**
+`17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
+- 17 (input) % 5 (divisor) = 2 (remainder)
+
+
 Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.
 
 A _comment_ is a part of the code which is not executed by python. So we can leave some text in our code to make our code more readable. Python does not run the comment part. A comment in python starts with hash(#) symbol.

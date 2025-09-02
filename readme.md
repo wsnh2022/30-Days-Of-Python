@@ -196,11 +196,15 @@ In python we have the following additional operations:
 
 **Floor Division (//) => removing the decimal:**
 `17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
-+ 17 (input) // 5 (divisor) = 3 (result without reminder)
++ 17 (input) // 5 (divisor) = 3 (result without decimals)
 
 **Modulo (%) => finding the remainder:**
 `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
 - 17 (input) % 5 (divisor) = 2 (remainder)
+
+//: Counts full groups divisible by the divisor, ignoring decimals.
+
+%: Captures what’s left as the remainder.
 
 
 Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.

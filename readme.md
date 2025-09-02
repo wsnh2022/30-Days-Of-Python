@@ -200,7 +200,7 @@ In python we have the following additional operations:
 
 **Modulo (%) => finding the remainder:**
 `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
-- 17 (input) % 5 (divisor) = 2 (remainder)
+- 17 (input) % 5 (divisor) = 2 (remainder after division)
 
 //: Counts full groups divisible by the divisor, ignoring decimals.
 

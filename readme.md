@@ -195,15 +195,8 @@ Let us do some maths first before we write any Python code:
 In python we have the following additional operations:
 
 **Floor Division (//) => removing the decimal:**
-- `17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
-
-**Modulo (%) => finding the remainder:**
-- `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
-
-
-**Floor Division (//) => removing the decimal:**
 `17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
-+ 17 (input) // 5 (divisor) = 3 (result)
++ 17 (input) // 5 (divisor) = 3 (result without reminder)
 
 **Modulo (%) => finding the remainder:**
 `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"

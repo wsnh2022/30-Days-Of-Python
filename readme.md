@@ -194,15 +194,11 @@ Let us do some maths first before we write any Python code:
 
 In python we have the following additional operations:
 
+**Floor Division (//) => removing the decimal:**
+`17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
 
-**Floor Division (//):**
-- `17 // 5 = 3` => "17 divided by 5 equals 3.4, but ignore the decimal part completely"
-
-**Modulo (%):**
-- `17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
-
-- 3 % 2 = 1 => which means finding the remainder
-- 3 // 2 = 1 => which means removing the remainder
+**Modulo (%) => finding the remainder:**
+`17 % 5 = 2` => "17 divided by 5 goes 3 times (15), so remainder is 17-15=2"
 
 Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.
 
